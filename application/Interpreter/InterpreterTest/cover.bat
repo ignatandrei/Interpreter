@@ -1,0 +1,2 @@
+dotnet test  --no-build --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+C:\Users\Surface1\.nuget\packages\reportgenerator\3.1.2\tools\reportgenerator.exe "-reports:coverage.opencover.xml" "-targetdir:cover"
