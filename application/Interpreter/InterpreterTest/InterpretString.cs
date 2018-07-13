@@ -8,7 +8,7 @@ using System.Linq;
 namespace InterpreterTest
 {
     [TestClass]
-    public class InterpretString : IInterpretString
+    public class InterpretString
     {
         public static string RandomString(int length)
         {

@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Andrei Ignat</Authors>
+    <Company>AOM</Company>
+    <Description>INterprets strings - another redirecttion. Examples at https://github.com/ignatandrei/Interpreter</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/ignatandrei/Interpreter</RepositoryUrl>
+    <PackageReleaseNotes>first version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
