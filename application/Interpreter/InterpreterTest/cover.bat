@@ -1,2 +1,3 @@
+dotnet tool install -g dotnet-reportgenerator-globaltool --version 4.0.0-alpha12
 dotnet test  --no-build --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-%USERPROFILE%\.nuget\packages\reportgenerator\3.1.2\tools\reportgenerator.exe "-reports:coverage.opencover.xml" "-targetdir:cover"
+reportgenerator "-reports:coverage.opencover.xml" "-targetdir:cover"
