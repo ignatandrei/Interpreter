@@ -35,4 +35,8 @@
     </None>
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cover.bat" />
+  </Target>
+
 </Project>
