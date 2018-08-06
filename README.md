@@ -31,6 +31,10 @@ TwoSteps:
 }
  
 
+For more examples please read http://msprogrammer.serviciipeweb.ro/2018/07/16/interpreterpart-1-of-n/ 
+
+
+For the whole interpret , please read http://msprogrammer.serviciipeweb.ro/category/interpreter/ 
  
  
  
