@@ -8,7 +8,7 @@
 
 Interpreter for creating strings from usual data
 
-It supoprts the follwoing configuration:
+It supports the following configuration:
 
 #env:<SomeEnvironemntVariable# - example : #env:Path# 
 
