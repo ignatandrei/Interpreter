@@ -7,3 +7,30 @@
 
 
 Interpreter for creating strings from usual data
+
+It supoprts the follwoing configuration:
+
+#env:<SomeEnvironemntVariable# - example : #env:Path# 
+
+#now:<SomeFormat># - example:#now:yyyyMMddHHmmss#
+ 
+#utcnow:<SomeFormat># - example:#utcnow:yyyyMMddHHmmss#
+
+#guid:Someformat# - example:  #guid:n#
+
+@static:<SomeClass.SomeStaticFunction>@  - example :  @static:Environment.CurrentDirectory@  
+
+TwoSteps:
+@static:Path.GetPathRoot(#static:Directory.GetCurrentDirectory()#)@";
+
+ Reading from appsettings.json :
+ #file:<NameOfJsonEntry># - example #file:SqlServerConnectionString#  -  read from 
+  
+  {
+  "SqlServerConnectionString": "Server=(local)\\SQL2016;Database=tempdb;Trusted_Connection=True;"
+}
+ 
+
+ 
+ 
+ 
