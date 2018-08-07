@@ -36,5 +36,13 @@ For more examples please read http://msprogrammer.serviciipeweb.ro/2018/07/16/in
 
 For the whole interpret , please read http://msprogrammer.serviciipeweb.ro/category/interpreter/ 
  
+For where it is used, please see 
+
+"FolderName": "@static:Environment.CurrentDirectory@" from
+https://github.com/ignatandrei/AOP_With_Roslyn/blob/master/AOPRoslyn/processme.txt
+
+Even if [dotnet aop](https://github.com/ignatandrei/AOP_With_Roslyn/) is running from dot net tools folder(<user>\.dotnet\tools\.store\dotnet-aop) , it processes files from current directory
+
+
  
  
