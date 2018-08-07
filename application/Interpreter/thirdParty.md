@@ -1,9 +1,12 @@
 You can obtain third party nuget packages with
 
 get-package | Select Id, LicenseUrl | Format-Table -AutoSize
+
+
+
 ( done in Package Manager Console)
 
-Of coourse, first is .NET Core
+Of course, first is .NET Core
 
 The others: 
 
